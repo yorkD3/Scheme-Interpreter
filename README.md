@@ -10,12 +10,12 @@ This project can tokenize, parse and interpret a wide array of scheme code and s
 
 How to run Scheme Interpreter:
 Test cases m and e
-- ./test-m
-- ./test-e
+- `./test-m`
+- `./test-e`
 
 As an interactive interpreter:
-- ./scheme < [file.scm] (Interpret a scheme file found in project folder)
-- ./scheme (Interactive use of interpreter)
+- `./scheme < [file.scm]` (Interpret a scheme file found in project folder)
+- `./scheme` (Interactive use of interpreter)
 
 Example Code
 ```
@@ -31,5 +31,5 @@ scheme@(guile-user)> (cons 1 (cons 1 3))
 $3 = (1 1 . 3)
 ```
 
-* If permissions are denied, enter the command 'chmod a+x test-m test-e'
+* If permissions are denied, enter the command `chmod a+x test-m test-e`
 * Code cannot be run on mac terminal, attempt importing to repl.it and running it there.
