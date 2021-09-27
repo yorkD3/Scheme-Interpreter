@@ -18,7 +18,7 @@ As an interactive interpreter:
 - ./scheme (Interactive use of interpreter)
 
 Example Code
-'''
+```
 ./scheme
 scheme@(guile-user)> (+ 1 2)
 $1 = 3
@@ -29,7 +29,7 @@ scheme@(guile-user)> (less-than-or-equal 200 100)
 $2 = #f
 scheme@(guile-user)> (cons 1 (cons 1 3))
 $3 = (1 1 . 3)
-'''
+```
 
 * If permissions are denied, enter the command 'chmod a+x test-m test-e'
 * Code cannot be run on mac terminal, attempt importing to repl.it and running it there.
