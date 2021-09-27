@@ -19,7 +19,7 @@ As an interactive interpreter:
 
 Example Code
 ```
-./scheme
+>./scheme
 scheme@(guile-user)> (+ 1 2)
 $1 = 3
 scheme@(guile-user)> (define less-than-or-equal
